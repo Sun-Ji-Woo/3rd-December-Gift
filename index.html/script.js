@@ -27,11 +27,11 @@ function showMessage() {
 
     let message;
     if (sweaterCount > 1) {
-        message = `Oh dear, unfortunately I don't have that many, but I have one special one for you, ${name}!`;
+        message = `Oh dear, unfortunately I don't have that many, but I have one special one for you, ${name}~`;
     } else if (sweaterCount === 1) {
-        message = `Here's your special sweater cuz you're one in eight billion, ${name}!`;
+        message = `Here's your special sweater cuz you're one in eight billion, ${name}~`;
     } else {
-        message = `Oh I see. Here's a sweater anyway cause I don't want you to feel cold, ${name} 030`;
+        message = `Oh I see. Here's a sweater anyway cause I don't want you to feel cold, ${name} - sama 030`;
     }
     document.getElementById("finalMessage").textContent = message;
 }
