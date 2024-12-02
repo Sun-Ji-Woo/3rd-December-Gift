@@ -27,9 +27,9 @@ function showMessage() {
 
     let message;
     if (sweaterCount > 1) {
-        message = `Oh dear, unfortunately I don't have that many, but I have one special one for you, ${name}~`;
+        message = `Oh dear, unfortunately I don't have that many, but I have one special one for you, ${name} ;D`;
     } else if (sweaterCount === 1) {
-        message = `Here's your special sweater cuz you're one in eight billion, ${name}~`;
+        message = `Here's your special sweater cuz you're one in eight billion, ${name} ;D`;
     } else {
         message = `Oh I see. Here's a sweater anyway cause I don't want you to feel cold, ${name} - sama 030`;
     }
